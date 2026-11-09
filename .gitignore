@@ -1,0 +1,16 @@
+# Match data is licensed for the competition only and must never be committed.
+data/*
+!data/README.md
+*.mp4
+*.npz
+
+# Scoring scratch space
+evaluation/results/
+evaluation/reports/
+evaluation/scoreboard.csv
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
